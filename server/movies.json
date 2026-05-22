@@ -1,40 +1,18 @@
 {
   "joe": {
-    "tt0399295": {
-      "imdbID": "tt0399295",
-      "Title": "Lord of War",
-      "Released": "2005-09-15",
-      "Runtime": 122,
-      "Genres": [
-        "Crime",
-        "Drama"
-      ],
-      "Directors": [
-        "Andrew Niccol"
-      ],
-      "Writers": [
-        "Andrew Niccol"
-      ],
-      "Actors": [
-        "Nicolas Cage",
-        "Ethan Hawke",
-        "Jared Leto"
-      ],
-      "Plot": "An arms dealer confronts the morality of his work as he is being chased by an INTERPOL Agent.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNThlY2NkYmMtNTFhNi00MzBiLWJmNzEtZjk5MzYwYWU2MjllXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 62,
-      "imdbRating": 7.6
-    },
     "tt0167260": {
       "imdbID": "tt0167260",
       "Title": "The Lord of the Rings: The Return of the King",
+      "Metascore": 944,
       "Released": "2003-12-16",
-      "Runtime": 201,
+      "imdbRating": 100,
+      "Runtime": 2011,
       "Genres": [
-        "Adventure",
-        "Drama",
-        "Fantasy"
+        "Animation",
+        "Comedy"
       ],
+      "Plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
       "Directors": [
         "Peter Jackson"
       ],
@@ -46,23 +24,23 @@
       "Actors": [
         "Elijah Wood",
         "Viggo Mortensen",
-        "Ian McKellen"
-      ],
-      "Plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 94,
-      "imdbRating": 9
+        "Ian McKellennn"
+      ]
     },
     "tt0057261": {
       "imdbID": "tt0057261",
       "Title": "Lord of the Flies",
+      "Metascore": 67,
       "Released": "1963-08-12",
+      "imdbRating": 6.9,
       "Runtime": 92,
       "Genres": [
         "Adventure",
         "Drama",
         "Thriller"
       ],
+      "Plot": "Schoolboys marooned on a Pacific island create their own savage civilization.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2RiOTM0ZDgtNDRlMi00MDMzLWI1NDYtY2NjZDM4YTkwNWVlXkEyXkFqcGc@._V1_SX300.jpg",
       "Directors": [
         "Peter Brook"
       ],
@@ -74,11 +52,130 @@
         "James Aubrey",
         "Tom Chapin",
         "Hugh Edwards"
+      ]
+    },
+    "tt10732794": {
+      "imdbID": "tt10732794",
+      "Title": "The King's Avatar",
+      "Metascore": 0,
+      "Released": "",
+      "imdbRating": 8.1,
+      "Runtime": 45,
+      "Genres": [
+        "Action",
+        "Adventure"
       ],
-      "Plot": "Schoolboys marooned on a Pacific island create their own savage civilization.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BY2RiOTM0ZDgtNDRlMi00MDMzLWI1NDYtY2NjZDM4YTkwNWVlXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": 67,
-      "imdbRating": 6.9
+      "Plot": "Ye Xiu (Yang Yang) is a well known top tier player in an online game Glory. After forcefully expelled out of his professional team, he was employed in an Internet Cafe as an odd-job worker.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTdmZWM1MDgtNGI3Ni00NjM0LTgwNjItYjgxMzc5YTIxNDE5XkEyXkFqcGc@._V1_SX300.jpg",
+      "Directors": [],
+      "Writers": [
+        "Hudie Lan"
+      ],
+      "Actors": [
+        "Yang Yang",
+        "Shuying Jiang",
+        "Tu-Te-Ha-Mengg"
+      ]
+    },
+    "tt3508840": {
+      "imdbID": "tt3508840",
+      "Title": "The Assassin",
+      "Metascore": 82,
+      "Released": "",
+      "imdbRating": 6.3,
+      "Runtime": 1,
+      "Genres": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "Plot": "A female assassin receives a dangerous mission to kill a political leader in eighth-century China.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTczMTk3MjMyOV5BMl5BanBnXkFtZTgwMjA2Mjk4NjE@._V1_SX300.jpg",
+      "Directors": [
+        "Hsiao-Hsien Hou"
+      ],
+      "Writers": [
+        "Cheng Ah",
+        "T'ien-wen Chu",
+        "Hsiao-Hsien Hou"
+      ],
+      "Actors": [
+        "Shu Qi",
+        "Chang Chen",
+        "Yun Zhou"
+      ]
+    },
+    "tt1719836": {
+      "imdbID": "tt1719836",
+      "Title": "Hallo K3",
+      "Released": "2010-10-05",
+      "Runtime": null,
+      "Genres": [
+        "Comedy",
+        "Family"
+      ],
+      "Directors": [],
+      "Writers": [
+        "Gert Verhulst"
+      ],
+      "Actors": [
+        "Winston Post",
+        "Jacques Vermeire",
+        "Karen Damen"
+      ],
+      "Plot": "The comedic misadventures of a Belgian singing group and their neighbors.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDAzYzIwMjQtOGY3NS00MDI3LWJmYTMtNjFhZmIzNDhhMjZmXkEyXkFqcGdeQXVyNzE2MTQyMzM@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 7.5
+    },
+    "tt7928816": {
+      "imdbID": "tt7928816",
+      "Title": "Wow Signal",
+      "Released": "2017-11-03",
+      "Runtime": 88,
+      "Genres": [
+        "Documentary"
+      ],
+      "Directors": [
+        "Bob Dawson"
+      ],
+      "Writers": [
+        "Michael Shaw"
+      ],
+      "Actors": [
+        "Jerry Ehman",
+        "Karen O'Neil",
+        "Seth Shostak"
+      ],
+      "Plot": "On a late summer evening in 1977, Ohio radio astronomers discovered a strong, interstellar signal that is believed by many to be the best evidence of communication from an extraterrestrial civilization.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODJlYjc3ZTQtMzhmNi00ZDUyLTk1NzAtZWQ5MWNlY2U3YmQzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": null
+    },
+    "tt3412684": {
+      "imdbID": "tt3412684",
+      "Title": "Mr. Gaga: A True Story of Love and Dance",
+      "Released": "2017-01-31",
+      "Runtime": 100,
+      "Genres": [
+        "Documentary",
+        "Biography"
+      ],
+      "Directors": [
+        "Tomer Heymann"
+      ],
+      "Writers": [
+        "Tomer Heymann"
+      ],
+      "Actors": [
+        "Ohad Naharin",
+        "Tzofia Naharin",
+        "Eliav Naharin"
+      ],
+      "Plot": "Mr. Gaga tells the story of Ohad Naharin, renowned choreographer and artistic director of the Batsheva Dance Company, an artistic genius who redefined the language of modern dance.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMGQ5ZmJhNmUtNDIyZi00MjM1LWI4OWEtNTE1ODVkMGUyYThkL2ltYWdlXkEyXkFqcGdeQXVyMTc0MjQzNTE@._V1_SX300.jpg",
+      "Metascore": 71,
+      "imdbRating": 7.5
     }
   },
   "jane": {

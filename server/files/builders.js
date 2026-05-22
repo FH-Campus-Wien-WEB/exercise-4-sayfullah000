@@ -4,7 +4,12 @@ export class ElementBuilder {
   }
 
   id(id) {
-    this.element.dataset.imdbID = id;
+    this.element.id = id;
+    return this;
+  }
+
+  imdbID(id) {
+    this.element.dataset.imdbid = id;
     return this;
   }
 
@@ -56,6 +61,7 @@ export class ParentChildBuilder extends ElementBuilder {
 
   append(text) {
     const childCreator = new ElementBuilder(this.childTag).text(text);
+
     if (this.childClazz) {
       childCreator.class(this.childClazz);
     }
@@ -72,11 +78,10 @@ export class ParentChildBuilder extends ElementBuilder {
     if (arguments.length === 1 && Array.isArray(arguments[0])) {
       arguments[0].forEach((item) => this.append(item));
     } else {
-      for (var i = 0; i < arguments.length; i++) {
+      for (let i = 0; i < arguments.length; i++) {
         this.append(arguments[i]);
       }
     }
-
     return this;
   }
 }
@@ -96,7 +101,17 @@ class ListBuilder extends ParentChildBuilder {
 function formatRuntime(runtime) {
   const hours = Math.trunc(runtime / 60);
   const minutes = runtime % 60;
-  return hours + "h " + minutes + "m";
+  return `${hours}h ${minutes}m`;
+}
+
+export class ButtonBuilder extends ElementBuilder {
+  constructor(text) {
+    super("button").with("type", "button").text(text);
+  }
+
+  onclick(handler) {
+    return this.listener("click", handler);
+  }
 }
 
 export class MovieBuilder extends ElementBuilder {
@@ -109,35 +124,43 @@ export class MovieBuilder extends ElementBuilder {
     if (isLoggedIn) {
       this.append(
         new ElementBuilder("p")
-          .append(new ButtonBuilder("Edit").onclick(() => location.href = "edit.html?imdbID=" + movie.imdbID))
-          .append(new ButtonBuilder("Delete").onclick(() => deleteMovie(movie.imdbID)))
+          .append(
+            new ButtonBuilder("Edit").onclick(() => {
+              location.href = `edit.html?imdbID=${movie.imdbID}`;
+            })
+          )
+          .append(
+            new ButtonBuilder("Delete").onclick(() => {
+              deleteMovie(movie.imdbID);
+            })
+          )
       );
     }
 
     this.append(
-        new ParagraphBuilder().items(
-          "Runtime " + formatRuntime(movie.Runtime),
-          "\u2022",
-          "Released on " + new Date(movie.Released).toLocaleDateString("en-US")
-        )
+      new ParagraphBuilder().items(
+        `Runtime ${formatRuntime(movie.Runtime)}`,
+        "•",
+        `Released on ${new Date(movie.Released).toLocaleDateString("en-US")}`
       )
-      .append(new ParagraphBuilder().childClass("genre").items(movie.Genres))
+    )
+      .append(
+        new ParagraphBuilder()
+          .childClass("genre")
+          .items(movie.Genres)
+      )
       .append(new ElementBuilder("p").text(movie.Plot))
-      .append(new ElementBuilder("h2").pluralizedText("Director", movie.Directors))
+      .append(
+        new ElementBuilder("h2").pluralizedText("Director", movie.Directors)
+      )
       .append(new ListBuilder().items(movie.Directors))
-      .append(new ElementBuilder("h2").pluralizedText("Writer", movie.Writers))
+      .append(
+        new ElementBuilder("h2").pluralizedText("Writer", movie.Writers)
+      )
       .append(new ListBuilder().items(movie.Writers))
-      .append(new ElementBuilder("h2").pluralizedText("Actor", movie.Actors))
+      .append(
+        new ElementBuilder("h2").pluralizedText("Actor", movie.Actors)
+      )
       .append(new ListBuilder().items(movie.Actors));
-  }
-}
-
-export class ButtonBuilder extends ElementBuilder {
-  constructor(text) {
-    super("button").with("type", "button").text(text)
-  }
-
-  onclick(handler) {
-    return this.listener("click", handler)
   }
 }

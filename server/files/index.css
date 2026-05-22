@@ -2,43 +2,93 @@
 
 body {
   background-image: url('images/background.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  backdrop-filter: blur(4px);
+}
+
+header {
+  background: rgba(0,0,0,0.6);
+  padding: 16px;
+  text-align: center;
+}
+
+.user-greeting {
+  font-size: 18px;
+  margin-top: 8px;
 }
 
 article {
-  background-color: rgba(211, 211, 211, 0.9);
-  border-radius: 16px;
-  padding: 16px;
-  width: 384px;
-  margin: 8px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 20px;
+  width: 360px;
+  margin: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  transition: 0.3s;
 }
 
-article button {
-  margin: 0px 2px;
+article:hover {
+  transform: translateY(-5px);
+}
+
+article img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+article h1 {
+  color: white;
+  margin-top: 16px;
+}
+
+article p,
+article li,
+article h2 {
+  color: white;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
-header {
+.genre {
+  padding: 6px 12px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 999px;
+  margin-right: 8px;
+}
+
+nav {
+  background: rgba(0,0,0,0.5);
+  padding: 16px;
+}
+
+footer {
+  background: rgba(0,0,0,0.7);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-span {
-  margin-right: 4px;
+dialog {
+  border: none;
+  border-radius: 20px;
+  padding: 24px;
+  background: white;
+  color: black;
 }
 
-.genre {
-  padding: 4px 8px;
-  border: solid black 1px;
-  border-radius: 6px;
-  background-color: darkgray;
-  font-weight: bold;
+dialog::backdrop {
+  background: rgba(0,0,0,0.7);
+}
+
+#searchResults div {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
 }
