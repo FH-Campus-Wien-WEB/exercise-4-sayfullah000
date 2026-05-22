@@ -14,12 +14,11 @@ app.use(bodyParser.json());
 app.use(
   session({
     secret: config.sessionSecret,
-    resave: true,
-    saveUninitialized: true,
+    resave: false,
+    saveUninitialized: false,
     cookie: {
       secure: false,
       httpOnly: true,
-      sameSite: "lax",
     },
   })
 );

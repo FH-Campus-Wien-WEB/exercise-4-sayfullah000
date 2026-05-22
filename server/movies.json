@@ -2,7 +2,7 @@
   "joe": {
     "tt0167260": {
       "imdbID": "tt0167260",
-      "Title": "The Lord of the Rings: The Return of the King",
+      "Title": "The Lord of the Rings",
       "Metascore": 944,
       "Released": "2003-12-16",
       "imdbRating": 100,
@@ -24,7 +24,7 @@
       "Actors": [
         "Elijah Wood",
         "Viggo Mortensen",
-        "Ian McKellennn"
+        "Ian McK"
       ]
     },
     "tt0057261": {
@@ -102,40 +102,21 @@
       "Actors": [
         "Shu Qi",
         "Chang Chen",
-        "Yun Zhou"
+        "Yun Zhouo"
       ]
-    },
-    "tt1719836": {
-      "imdbID": "tt1719836",
-      "Title": "Hallo K3",
-      "Released": "2010-10-05",
-      "Runtime": null,
-      "Genres": [
-        "Comedy",
-        "Family"
-      ],
-      "Directors": [],
-      "Writers": [
-        "Gert Verhulst"
-      ],
-      "Actors": [
-        "Winston Post",
-        "Jacques Vermeire",
-        "Karen Damen"
-      ],
-      "Plot": "The comedic misadventures of a Belgian singing group and their neighbors.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDAzYzIwMjQtOGY3NS00MDI3LWJmYTMtNjFhZmIzNDhhMjZmXkEyXkFqcGdeQXVyNzE2MTQyMzM@._V1_SX300.jpg",
-      "Metascore": null,
-      "imdbRating": 7.5
     },
     "tt7928816": {
       "imdbID": "tt7928816",
       "Title": "Wow Signal",
+      "Metascore": 0,
       "Released": "2017-11-03",
+      "imdbRating": 0,
       "Runtime": 88,
       "Genres": [
         "Documentary"
       ],
+      "Plot": "On a late summer evening in 1977, Ohio radio astronomers discovered a strong, interstellar signal that is believed by many to be the best evidence of communication from an extraterrestrial civilization.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODJlYjc3ZTQtMzhmNi00ZDUyLTk1NzAtZWQ5MWNlY2U3YmQzXkEyXkFqcGc@._V1_SX300.jpg",
       "Directors": [
         "Bob Dawson"
       ],
@@ -146,36 +127,32 @@
         "Jerry Ehman",
         "Karen O'Neil",
         "Seth Shostak"
-      ],
-      "Plot": "On a late summer evening in 1977, Ohio radio astronomers discovered a strong, interstellar signal that is believed by many to be the best evidence of communication from an extraterrestrial civilization.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BODJlYjc3ZTQtMzhmNi00ZDUyLTk1NzAtZWQ5MWNlY2U3YmQzXkEyXkFqcGc@._V1_SX300.jpg",
-      "Metascore": null,
-      "imdbRating": null
+      ]
     },
-    "tt3412684": {
-      "imdbID": "tt3412684",
-      "Title": "Mr. Gaga: A True Story of Love and Dance",
-      "Released": "2017-01-31",
-      "Runtime": 100,
+    "tt0417299": {
+      "imdbID": "tt0417299",
+      "Title": "Avatar",
+      "Metascore": 0,
+      "Released": "2005-02-20",
+      "imdbRating": 9.3,
+      "Runtime": 23,
       "Genres": [
-        "Documentary",
-        "Biography"
+        "Action",
+        "Adventure",
+        "Animation"
       ],
-      "Directors": [
-        "Tomer Heymann"
-      ],
+      "Plot": "In a war-torn world of elemental powers, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_SX300.jpg",
+      "Directors": [],
       "Writers": [
-        "Tomer Heymann"
+        "Michael Dante DiMartino",
+        "Bryan Konietzko"
       ],
       "Actors": [
-        "Ohad Naharin",
-        "Tzofia Naharin",
-        "Eliav Naharin"
-      ],
-      "Plot": "Mr. Gaga tells the story of Ohad Naharin, renowned choreographer and artistic director of the Batsheva Dance Company, an artistic genius who redefined the language of modern dance.",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMGQ5ZmJhNmUtNDIyZi00MjM1LWI4OWEtNTE1ODVkMGUyYThkL2ltYWdlXkEyXkFqcGdeQXVyMTc0MjQzNTE@._V1_SX300.jpg",
-      "Metascore": 71,
-      "imdbRating": 7.5
+        "Dee Bradley Baker",
+        "Zach Tyler Eisen",
+        "Mae Whitman"
+      ]
     }
   },
   "jane": {
